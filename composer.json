@@ -8,6 +8,17 @@
             "email": "developer@presttec.com.br"
         }
     ],
+	"conflict": {
+		"darthsoup/laravel-whmcs": "*",
+		"sburina/laravel-whmcs-up": "*",
+		"nicklaw5/laravel-whmcs": "*",
+		"thecrazybob/laravel-whmcs": "*",
+		"tustin/laravel-whmcs": "*",
+		"sermajid/laravel-whmcs": "*",
+		"corydemille/laravel-whmcs": "*",
+		"blob/laravel-whmcs": "*",
+		"woenel/laravel-whmcs": "*"
+	},
     "require": {
         "php": "^7.2.5|^8.0",
         "ext-json": "*",
