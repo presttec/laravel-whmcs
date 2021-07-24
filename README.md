@@ -108,3 +108,15 @@ Retrieve a specific invoice:
 
 This package is released under the MIT License. See the bundled
 [LICENSE](https://github.com/presttec/laravel-whmcs/blob/master/LICENSE.md) file for details.
+
+Contributing to Laravel Whmcs
+------------------------
+
+If you find a bug or want to add a feature to Laravel Whmcs, great! In order to make it easier and quicker for me to verify and merge changes in, it would be amazing if you could follow these few basic steps:
+
+1. Fork the project.
+2. **Branch out into a new branch. `git checkout -b name_of_new_feature_or_bug`**
+3. Make your feature addition or bug fix.
+4. **Add tests for it. This is important so I don’t break it in a future version unintentionally.**
+5. Commit.
+6. Send me a pull request!
