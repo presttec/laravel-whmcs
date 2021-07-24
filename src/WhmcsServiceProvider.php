@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace DarthSoup\Whmcs;
+namespace PrestTEC\Whmcs;
 
-use DarthSoup\Whmcs\Adapter\GuzzleHttpAdapter;
+use PrestTEC\Whmcs\Adapter\GuzzleHttpAdapter;
 use Illuminate\Container\Container;
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider;

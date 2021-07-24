@@ -1,6 +1,6 @@
 <?php
 
-namespace DarthSoup\Whmcs\Facades;
+namespace PrestTEC\Whmcs\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

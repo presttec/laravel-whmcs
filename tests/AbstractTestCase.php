@@ -1,9 +1,9 @@
 <?php
 
-namespace DarthSoup\Tests\Whmcs;
+namespace PrestTEC\Tests\Whmcs;
 
-use DarthSoup\Whmcs\Facades\Whmcs;
-use DarthSoup\Whmcs\WhmcsServiceProvider;
+use PrestTEC\Whmcs\Facades\Whmcs;
+use PrestTEC\Whmcs\WhmcsServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 abstract class AbstractTestCase extends TestCase

@@ -1,11 +1,11 @@
 {
-    "name": "darthsoup/laravel-whmcs",
+    "name": "presttec/laravel-whmcs",
     "description": "Laravel WHMCS API interface",
     "license": "MIT",
     "authors": [
         {
-            "name": "Kevin Krummnacker",
-            "email": "kevin.krummnacker@gmail.com"
+            "name": "Ramon Araujo Oliveira",
+            "email": "developer@presttec.com.br"
         }
     ],
     "require": {
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "DarthSoup\\Whmcs\\": "src/"
+            "PrestTEC\\Whmcs\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DarthSoup\\Tests\\Whmcs\\": "tests/"
+            "PrestTEC\\Tests\\Whmcs\\": "tests/"
         }
     },
     "suggest": {
@@ -42,10 +42,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "DarthSoup\\Whmcs\\WhmcsServiceProvider"
+                "PrestTEC\\Whmcs\\WhmcsServiceProvider"
             ],
             "aliases": {
-                "Whmcs": "DarthSoup\\Whmcs\\Facades\\Whmcs"
+                "Whmcs": "PrestTEC\\Whmcs\\Facades\\Whmcs"
             }
         }
     }

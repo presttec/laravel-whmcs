@@ -1,6 +1,6 @@
 <?php
 
-namespace DarthSoup\Whmcs\Adapter;
+namespace PrestTEC\Whmcs\Adapter;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;

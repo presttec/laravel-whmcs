@@ -1,8 +1,8 @@
 <?php
 
-namespace DarthSoup\Tests\Whmcs;
+namespace PrestTEC\Tests\Whmcs;
 
-use DarthSoup\Whmcs\WhmcsManager;
+use PrestTEC\Whmcs\WhmcsManager;
 
 class ServiceProviderTest extends AbstractTestCase
 {

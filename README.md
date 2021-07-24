@@ -1,9 +1,9 @@
 Laravel WHMCS
 ======
 
-[![Latest Stable Version](https://poser.pugx.org/darthsoup/laravel-whmcs/v/stable)](https://packagist.org/packages/darthsoup/laravel-whmcs)
-[![Total Downloads](https://poser.pugx.org/darthsoup/laravel-whmcs/downloads)](https://packagist.org/packages/darthsoup/laravel-whmcs)
-[![License](https://poser.pugx.org/darthsoup/laravel-whmcs/license)](https://packagist.org/packages/darthsoup/laravel-whmcs)
+[![Latest Stable Version](https://poser.pugx.org/presttec/laravel-whmcs/v/stable)](https://packagist.org/packages/presttec/laravel-whmcs)
+[![Total Downloads](https://poser.pugx.org/presttec/laravel-whmcs/downloads)](https://packagist.org/packages/presttec/laravel-whmcs)
+[![License](https://poser.pugx.org/presttec/laravel-whmcs/license)](https://packagist.org/packages/presttec/laravel-whmcs)
 
 An interface for interaction with the WHMCS API in Laravel.
 
@@ -12,16 +12,16 @@ An interface for interaction with the WHMCS API in Laravel.
 Install the package through [Composer](http://getcomposer.org/). Run the Composer require command from the Terminal:
 
 ```bash
-composer require darthsoup/laravel-whmcs
+composer require presttec/laravel-whmcs
 ```
 
 Package will be installed automaticlly through composer package discovery. If not, then you need to register 
-the `DarthSoup\Whmcs\WhmcsService` service provider in your config/app.php.
+the `PrestTEC\Whmcs\WhmcsService` service provider in your config/app.php.
 
 Optionally, you can add the alias if you prefer to use the Facade
 
 ```php
-'Whmcs' => DarthSoup\Whmcs\Facades\Whmcs::class
+'Whmcs' => PrestTEC\Whmcs\Facades\Whmcs::class
 ```
 
 ## Configuration
@@ -29,7 +29,7 @@ Optionally, you can add the alias if you prefer to use the Facade
 To get started, you'll need to publish all vendor assets.
 
 ```bash
-php artisan vendor:publish --provider=DarthSoup\Whmcs\WhmcsServiceProvider
+php artisan vendor:publish --provider=PrestTEC\Whmcs\WhmcsServiceProvider
 ```
 
 Then open `config\whmcs.php` to fill your WHMCS api credentials in
@@ -41,7 +41,7 @@ Now you can use the WHMCS API in your Laravel project.
 Copy the config file from the package to your projects config directory:
 
 ```bash
-cp vendor/darthsoup/laravel-whmcs/config/whmcs.php config/whmcs.php
+cp vendor/presttec/laravel-whmcs/config/whmcs.php config/whmcs.php
 ```
 
 Then open `config\whmcs.php` to fill your WHMCS api credentials in.
@@ -50,7 +50,7 @@ To finish this, register the config file and the service provider in `bootstrap/
 
 ```php
 $app->configure('whmcs');
-$app->register(DarthSoup\Whmcs\WhmcsServiceProvider::class);
+$app->register(PrestTEC\Whmcs\WhmcsServiceProvider::class);
 ```
 
 Now you can use the WHMCS API in your Lumen project.
@@ -62,7 +62,7 @@ You can call your WHMCS API directly by calling the `\WHMCS::{WHMCSAPIFUNCTION}`
 If you prefer dependency injection, you can inject the manager like this:
 
 ```php
-use DarthSoup\Whmcs\WhmcsManager;
+use PrestTEC\Whmcs\WhmcsManager;
 
 class WhmcsController extends Controller
 {
@@ -102,9 +102,9 @@ Retrieve a specific invoice:
 
 ## Support
 
-[Please open an issue in github](https://github.com/darthsoup/laravel-whmcs/issues)
+[Please open an issue in github](https://github.com/presttec/laravel-whmcs/issues)
 
 ## License
 
 This package is released under the MIT License. See the bundled
-[LICENSE](https://github.com/darthsoup/laravel-whmcs/blob/master/LICENSE.md) file for details.
+[LICENSE](https://github.com/presttec/laravel-whmcs/blob/master/LICENSE.md) file for details.

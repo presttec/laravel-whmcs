@@ -1,8 +1,8 @@
 <?php
 
-namespace DarthSoup\Whmcs;
+namespace PrestTEC\Whmcs;
 
-use DarthSoup\Whmcs\Adapter\ConnectorInterface;
+use PrestTEC\Whmcs\Adapter\ConnectorInterface;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Contracts\Config\Repository;
 
